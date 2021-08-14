@@ -1,0 +1,42 @@
+[
+    {
+        "id": "86dc0c7d-a41d-4d1a-a66b-b9e8ad881556",
+        "total": 5999.99,
+        "date": "2021-08-10",
+        "customer": "58876d4b-42b0-43ef-8ac0-155b3eb0c824",
+        "lineItems": [
+            {
+                "quantity": 1,
+                "product": "f9b1f5cf-153a-4c13-982b-22514ba72c3b"
+            }
+        ]
+    },
+    {
+        "id": "d0a621ff-046d-4acd-a5e0-b3ff68723fd8",
+        "total": 119.98,
+        "date": "2021-08-10",
+        "customer": "96d7294f-2266-4f31-8103-d60bd7db314a",
+        "lineItems": [
+            {
+                "quantity": 1,
+                "product": "cd327bd7-17e6-4bf5-8f7d-789ee7d8b9ed"
+            },
+            {
+                "quantity": 1,
+                "product": "b2929c37-6bfa-4911-92b0-9a5aad7ee86d"
+            }
+        ]
+    },
+    {
+        "id": "55d2fdfd-6782-4cce-8cad-ebc9dc087293",
+        "total": 240,
+        "date": "2021-08-10",
+        "customer": "5f037c45-8a7d-4d8d-bd52-3db34d53fed7",
+        "lineItems": [
+            {
+                "quantity": 2,
+                "product": "fce9515a-bc56-45cb-8da4-616a5de5b1d2"
+            }
+        ]
+    }
+]

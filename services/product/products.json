@@ -1,0 +1,47 @@
+[
+    {
+        "id": "f9b1f5cf-153a-4c13-982b-22514ba72c3b",
+        "name": "iPhone 12",
+        "cost": 5999.99
+    },
+    {
+        "id": "644a5b1e-41a5-4dea-96a5-9f4a29d33764",
+        "name": "Carregador 60W",
+        "cost": 89.99
+    },
+    {
+        "id": "fce9515a-bc56-45cb-8da4-616a5de5b1d2",
+        "name": "Mouse G203",
+        "cost": 120.0
+    },
+    {
+        "id": "86882bbc-2672-4a81-be6d-3fa27b45e7ab",
+        "name": "Fone de Ouvido",
+        "cost": 48.9
+    },
+    {
+        "id": "b2ed3c6f-8245-40a4-bc63-feccf93c1d9a",
+        "name": "Teclado Mec\u00e2nico",
+        "cost": 239.9
+    },
+    {
+        "id": "ffc5a0aa-b1a1-4054-9797-b9dc54b0fd20",
+        "name": "SSD 512GB",
+        "cost": 499.99
+    },
+    {
+        "id": "cd327bd7-17e6-4bf5-8f7d-789ee7d8b9ed",
+        "name": "Cabo USB-C",
+        "cost": 29.99
+    },
+    {
+        "id": "b2929c37-6bfa-4911-92b0-9a5aad7ee86d",
+        "name": "Cabo HDMI",
+        "cost": 39.99
+    },
+    {
+        "id": "6901112a-a3a1-4fd2-a71e-59cd4d15b24d",
+        "name": "Impressora Epson",
+        "cost": 874.89
+    }
+]
