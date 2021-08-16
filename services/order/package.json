@@ -1,0 +1,9 @@
+{
+  "name": "order",
+  "version": "1.0.0",
+  "main": "order.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuid": "^8.3.2"
+  }
+}
