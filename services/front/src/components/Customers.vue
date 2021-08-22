@@ -65,13 +65,13 @@ export default {
   },
   methods: {
     getCustomers() {
-      axios.get("http://customer-service:5000/customers").then(({ data }) => {
+      axios.get("http://192.168.49.2:32324/customers").then(({ data }) => {
         this.customers = data;
       });
     },
     newCustomer() {
       const data = this.customer;
-      axios.post("http://customer-service:5000/customers", data).then((res) => {
+      axios.post("http://192.168.49.2:32324/customers", data).then((res) => {
         console.log(res);
         window.alert("Cliente cadastrado!");
         this.getCustomers();

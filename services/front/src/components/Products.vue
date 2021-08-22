@@ -46,7 +46,7 @@ export default {
   },
   methods: {
     getProducts() {
-      axios.get("http://product-service:5005/products").then(({ data }) => {
+      axios.get("http://192.168.49.2:30017/products").then(({ data }) => {
         this.products = data;
       });
     },
@@ -55,7 +55,7 @@ export default {
         name: this.name,
         cost: parseFloat(this.cost),
       };
-      axios.post("http://product-service:5005/products", data).then((res) => {
+      axios.post("http://192.168.49.2:30017/products", data).then((res) => {
         console.log(res);
         window.alert("Produto criado!");
         this.getProducts();

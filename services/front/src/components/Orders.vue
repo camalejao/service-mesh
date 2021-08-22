@@ -101,12 +101,12 @@ export default {
       this.total = a.toFixed(2);
     },
     getOrders() {
-      axios.get("http://order-service:5050/orders").then(({ data }) => {
+      axios.get("http://192.168.49.2:31822/orders").then(({ data }) => {
         this.orders = data;
       });
     },
     getCustomers() {
-      axios.get("http://customer-service:5000/customers").then(({ data }) => {
+      axios.get("http://192.168.49.2:32324/customers").then(({ data }) => {
         this.customers = data;
       });
     },
@@ -119,7 +119,7 @@ export default {
         return filtered[0];
     },
     getProducts() {
-      axios.get("http://product-service:5005/products").then(({ data }) => {
+      axios.get("http://192.168.49.2:30017/products").then(({ data }) => {
         this.products = data;
       });
     },
@@ -130,7 +130,7 @@ export default {
         total: this.total,
         lineItems: this.items.filter(i => i.quantity > 0 && i.product != ""),
       };
-      axios.post("http://order-service:5050/orders", data).then((res) => {
+      axios.post("http://192.168.49.2:31822/orders", data).then((res) => {
         console.log(res);
         window.alert("Pedido criado!");
         this.getORders();
